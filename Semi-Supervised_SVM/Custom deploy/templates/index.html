@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='C:/Users/Um Ar/PycharmProjects/Internship-2/Semi-Supervised_SVM/Custom deploy/static/css/style.css') }}">
+  
+</head>
+
+<body>
+<div class="topnav">
+    <a class = "active" href="#home">Home</a>
+    <div class = "Search Container">
+        <form action = "http://localhost:5000/" method="post">
+            <input type = "text" placeholder="Search" name="search">
+            <button type = "submit"><i class="fa fa-search"></i></button>
+
+        </form>
+    </div>
+</div>
+<div style="padding-left-16px">
+    <h2>Twitter Sentiment Analysis</h2>
+</div>
+</body>
+</html>
